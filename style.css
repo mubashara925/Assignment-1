@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px 0px 20px 20px;
+    box-sizing:border-box ;
+}
+#sectionPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #328873;
+    color: white;
+   
+}
+span{
+    color: #00D916;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   
+}
+li{
+    list-style: none;
+}
+
+/*-----1st css end--*/
+/*-----2nd css start--*/
+#bannerSection{
+    background-image: url(./business-people-holding-word-careers\ 1.png);
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*-----2nd css end--*/
+/*-----3rd css start--*/
+#AboutSeciton{
+    background-color:#E9E9E9;
+    padding: 150px;
+
+}
+#AboutSeciton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#textDiv>h1{
+    font-size: 35px;
+}
+#textDiv>span{
+    color: #00D916;
+}
+#textDiv>p{
+    font-size: 20px;
+    align-items: center;
+    line-height: 32px;
+    width: 80%;
+}
+#textDiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #00D916;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#textDiv>button:hover{
+    border: 2px solid #00D916;
+}
+/*----3css end---*/
+/*----sart css---*/
+
+#shopsection{
+    display: flex;
+    justify-content:space-around;
+    gap: 30px;
+    align-items: center;
+    padding: 25px;
+  
+    
+}
+#section4thCard{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    background-color: #00D916;
+}
+
+.cardimgDiv{
+    width: 90%;
+
+    
+}
+.cardTextdiv{
+    padding: 30px;
+    background-color: #00D916;
+    
+
+  
+   
+}
+.cardTextdiv>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: azure;
+}
+/*----end css---*/
+#btnlogo{
+    justify-content:left;
+    align-items: center;
+
+
+}
+
+#btnlogo>button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+ background-color: #00D916;
+    color: azure;
+border-radius: 10px;
+    
+}
+/*------contact css---*/
+#shopSection{
+    display: flex;
+   justify-content:center;
+    gap: 30px;
+    align-items: center;
+     padding: 25px;
+    
+  
+}
+.shopSectionCard{
+    display: flex;
+    flex-direction: column;
+    background-color: #00D916;
+    height: 70vh;
+    width: 50%;
+    
+     
+}
+.cardimgDiv>img{
+    width: 111%;
+}
+.cardTextdiv{
+    padding: 30px;
+    background-color: #00D916;
+    height: 70vh;
+}
+.cardTextdiv>h4{
+    font-size: 25px;
+}
+.cardTextdiv>p{
+    font-size: 20px;
+}
+/*----4th end css---*/
+#buttonSection{
+    padding: 5px;
+    margin-top: 3%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#but2{
+    background-color: #00D916;
+    border: none;
+    padding: 10px 20px;
+    color: azure;
+    border-radius: 10%;
+    font-size: 100%;
+}
+/*---contact css---*/
+#ContactSection{
+    padding: 150px;
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+   
+
+}
+#Contactimg>img{
+    height: 400px;
+}
+.formDiv>input{
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    padding: 15px;
+    gap: 20px;
+ border-radius: 1%;
+    font-size: 100%;
+    border: none;
+}
+#ContactButton{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #00D916;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 5vh;
+    width: 20vh;
+   
+}
+/*-----footer---*/
+#copyLink{
+    padding: 20px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h4{
+    color: azure;
+}
+
+
+
+
+
+
+
